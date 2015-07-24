@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FB02E2A-D00A-4711-9E9E-E9377526D32F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03312EA7A157B8F8191FCC4CAC34D313B1A09B58</key>
+		<string>https://github.com/krish741/Tutorial21.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tutorial21.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03312EA7A157B8F8191FCC4CAC34D313B1A09B58</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/krish741/Tutorial21.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03312EA7A157B8F8191FCC4CAC34D313B1A09B58</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03312EA7A157B8F8191FCC4CAC34D313B1A09B58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tutorial21</string>
+		</dict>
+	</array>
+</dict>
+</plist>

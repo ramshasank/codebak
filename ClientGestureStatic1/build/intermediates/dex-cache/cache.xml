@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ramshasankpathath1/Desktop/ClientGestureStatic1/libs/jahmm-0.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="783a962cc2fdd948158fd9fae4ce7de42d97bd93">
+        <dex dex="/Users/ramshasankpathath1/Desktop/ClientGestureStatic1/app/build/intermediates/pre-dexed/debug/jahmm-0.6.1-17c29a00414fd04f2d0136943551bfa2f69fae1a.jar" />
+    </item>
+
+</items>

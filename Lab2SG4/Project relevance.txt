@@ -1,0 +1,8 @@
+				Project Idea and relevance to Lab2
+Brandon and Jeff did lab 2 on Twitter API which sends the text messages to twitter in real time. 
+This will be useful in our project to send the results from the robot to the twitter.
+
+We (SG4) done text to speech conversion using google talk API. 
+This will be useful to communicate with Robot and the Robot will be voicing the output. 
+Our project is on security monitoring and any security breach in house and the robot will tell you and alert us. 
+We might improve our ideas in future work.

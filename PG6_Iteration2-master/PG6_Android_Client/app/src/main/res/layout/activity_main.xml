@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+   
+    <EditText 
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.1.82"
+        android:hint="dstAddress" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_below="@+id/port"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect..."
+        android:layout_below="@+id/clear"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address"
+        android:layout_below="@+id/address"
+        android:ems="10"
+        android:text="1234"
+        android:hint="dstPort" />
+
+    <TextView
+        android:id="@+id/response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connect"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/sendCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Command"
+        android:layout_below="@+id/response"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_below="@+id/sendCommand"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/command"
+        android:layout_below="@+id/port"
+        android:layout_centerHorizontal="true"
+        android:text="Forward" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak Command"
+        android:id="@+id/speakBtn"
+        android:layout_below="@+id/stop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slower"
+        android:id="@+id/buttonSlower"
+        android:layout_below="@+id/speakBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faster"
+        android:id="@+id/buttonFaster"
+        android:layout_below="@+id/speakBtn"
+        android:layout_toRightOf="@+id/buttonSlower"
+        android:layout_toEndOf="@+id/buttonSlower" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Sign"
+        android:id="@+id/buttonStopSign"
+        android:layout_alignTop="@+id/sendCommand"
+        android:layout_toRightOf="@+id/speakBtn"
+        android:layout_toEndOf="@+id/speakBtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Sign"
+        android:id="@+id/buttonGoSign"
+        android:layout_below="@+id/buttonStopSign"
+        android:layout_toRightOf="@+id/speakBtn"
+        android:layout_toEndOf="@+id/speakBtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left Sign"
+        android:id="@+id/buttonLeftSign"
+        android:layout_below="@+id/buttonGoSign"
+        android:layout_toRightOf="@+id/speakBtn"
+        android:layout_toEndOf="@+id/speakBtn" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right Sign"
+        android:id="@+id/buttonRightSign"
+        android:layout_alignTop="@+id/buttonFaster"
+        android:layout_alignRight="@+id/buttonGoSign"
+        android:layout_alignEnd="@+id/buttonGoSign" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slow Sign"
+        android:id="@+id/buttonSlowSign"
+        android:layout_below="@+id/sendCommand"
+        android:layout_alignRight="@+id/sendCommand"
+        android:layout_alignEnd="@+id/sendCommand" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNE"
+        android:id="@+id/buttonDNE"
+        android:layout_alignTop="@+id/buttonStopSign"
+        android:layout_toRightOf="@+id/buttonGoSign"
+        android:layout_toEndOf="@+id/buttonGoSign" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TWT"
+        android:id="@+id/buttonTweet"
+        android:layout_below="@+id/buttonStopSign"
+        android:layout_toRightOf="@+id/buttonGoSign"
+        android:layout_toEndOf="@+id/buttonGoSign" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Off"
+        android:id="@+id/buttonOff"
+        android:layout_below="@+id/buttonGoSign"
+        android:layout_toRightOf="@+id/buttonGoSign"
+        android:layout_toEndOf="@+id/buttonGoSign" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On"
+        android:id="@+id/buttonOn"
+        android:layout_alignTop="@+id/buttonRightSign"
+        android:layout_toRightOf="@+id/buttonRightSign"
+        android:layout_toEndOf="@+id/buttonRightSign" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direction"
+        android:id="@+id/acceleration"
+        android:layout_alignTop="@+id/response"
+        android:layout_alignLeft="@+id/buttonRightSign"
+        android:layout_alignStart="@+id/buttonRightSign" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jeff/Documents/Development/PG6_Android_Client/jahmm-0.6.1/jahmm-0.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="783a962cc2fdd948158fd9fae4ce7de42d97bd93">
+        <dex dex="/Users/jeff/Documents/Development/PG6_Android_Client/app/build/intermediates/pre-dexed/debug/jahmm-0.6.1-9c5f2ed79285da75f44c28cf3be345bee937e9bc.jar" />
+    </item>
+
+</items>
